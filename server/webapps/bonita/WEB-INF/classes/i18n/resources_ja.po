@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: bonita-bpm\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: bonita-bpm\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /master/bonita-web/distrib/resources.pot\n"
+"Last-Translator: charlessouillard <rodrigue.legall@bonitasoft.com>\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"PO-Revision-Date: 2017-11-15 05:23-0500\n"
+
+msgid "Add"
+msgstr "追加"
+
+msgid "Attention"
+msgstr "注意"
+
+msgid "Business data"
+msgstr "ビジネス データ"
+
+msgid "Case id:{{case.caseIdToDisplay}} - Process: {{case.processDefinitionId.displayName}}"
+msgstr "案件ID： {{case.caseIdToDisplay}} - プロセス： {{case.processDefinitionId.displayName}}"
+
+msgid "Case started by: {{case.started_by.firstname}} {{case.started_by.lastname}}"
+msgstr "案件の起案者： {{case.started_by.firstname}} {{case.started_by.lastname}}"
+
+msgid "Documents"
+msgstr "ドキュメント"
+
+msgid "Download"
+msgstr "ダウンロード"
+
+msgid "Example:"
+msgstr "例："
+
+msgid "Execute"
+msgstr "実行"
+
+msgid "Expecting a {} value."
+msgstr "{} の値を期待しています。"
+
+msgid "Filename"
+msgstr "ファイル名"
+
+msgid "List of {{ dataType }}"
+msgstr "{{ dataType }} の一覧"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "No business data used in this case."
+msgstr "この案件には、ビジネスデータは使用されていません。"
+
+msgid "no description defined in contract for this input"
+msgstr "この入力項目のコントラクトには、説明が定義されていません"
+
+msgid "No Documents used in this case."
+msgstr "この案件には、ドキュメントは使用されていません。"
+
+msgid "No tasks executed yet."
+msgstr "実行済みのタスクはまだありません。"
+
+msgid "Not a valid number!"
+msgstr "有効な数値ではないです"
+
+msgid "remove"
+msgstr "削除"
+
+msgid "Select a file"
+msgstr "ファイルを選択します。"
+
+msgid "Start"
+msgstr "開始"
+
+msgid "Tasks executed by any participant will be displayed here ordered by date. Most recent on the top."
+msgstr "ここで任意の参加者によって実行されたタスクが日付順で表示されます。トップが最新の実行済みタスクです。"
+
+msgid "this is a temporary form generated automatically for testing. Before you put your process into production, create and map the necessary forms."
+msgstr "これはテスト用に自動生成された一時的なフォームです。本番環境にプロセスを移行する前に必要なフォームを作成し、マップしてください。"
+
+msgid "Timeline"
+msgstr "実行履歴"
+

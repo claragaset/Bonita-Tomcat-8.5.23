@@ -1,0 +1,6 @@
+2018-01-31 09:40:55.863 +0100 INFO: org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/manager] HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+2018-01-31 09:40:55.863 +0100 INFO: org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/manager] HTMLManager: init: Global resources are available
+2018-01-31 09:40:55.880 +0100 INFO: org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/manager] HTMLManager: list: Listing contexts for virtual host 'localhost'
+2018-01-31 10:00:01.324 +0100 INFO: org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/manager] HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+2018-01-31 10:00:01.325 +0100 INFO: org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/manager] HTMLManager: init: Global resources are available
+2018-01-31 10:00:01.328 +0100 INFO: org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/manager] HTMLManager: list: Listing contexts for virtual host 'localhost'

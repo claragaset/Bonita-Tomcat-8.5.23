@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<formMappingModel>
+    <form-mappings>
+        <form-mapping form="custompage_checkIfEnoughSubmissions" target="INTERNAL" type="TASK" taskname="Check if enough Countries have submitted"/>
+        <form-mapping form="custompage_caseoverview" target="INTERNAL" type="PROCESS_OVERVIEW"/>
+    </form-mappings>
+</formMappingModel>

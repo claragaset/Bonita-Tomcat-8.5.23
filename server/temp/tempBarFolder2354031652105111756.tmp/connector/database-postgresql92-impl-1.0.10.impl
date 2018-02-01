@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<implementation:connectorImplementation xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
+  <implementationId>database-postgresql92-impl</implementationId>
+  <implementationVersion>1.0.10</implementationVersion>
+  <definitionId>database-postgresql92</definitionId>
+  <definitionVersion>1.0.0</definitionVersion>
+  <implementationClassname>org.bonitasoft.connectors.database.jdbc.JdbcConnector</implementationClassname>
+  <description>PostGreSQL 8.4 implementation</description>
+  <jarDependencies>
+    <jarDependency>bonita-connector-database-postgresql92-impl-1.0.10.jar</jarDependency>
+    <jarDependency>bonita-connector-database-common-1.0.0.jar</jarDependency>
+    <jarDependency>bonita-connector-database-jdbc-impl-1.0.10.jar</jarDependency>
+  </jarDependencies>
+</implementation:connectorImplementation>

@@ -1,0 +1,510 @@
+2018-01-31 09:31:58.636 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Server version:        Apache Tomcat/8.5.23
+2018-01-31 09:31:58.653 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Server built:          Sep 28 2017 10:30:11 UTC
+2018-01-31 09:31:58.653 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Server number:         8.5.23.0
+2018-01-31 09:31:58.654 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener OS Name:               Windows 10
+2018-01-31 09:31:58.654 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener OS Version:            10.0
+2018-01-31 09:31:58.656 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Architecture:          amd64
+2018-01-31 09:31:58.658 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Java Home:             C:\Program Files\Java\jdk1.8.0_151\jre
+2018-01-31 09:31:58.659 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener JVM Version:           1.8.0_151-b12
+2018-01-31 09:31:58.659 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener JVM Vendor:            Oracle Corporation
+2018-01-31 09:31:58.660 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener CATALINA_BASE:         C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server
+2018-01-31 09:31:58.661 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener CATALINA_HOME:         C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server
+2018-01-31 09:31:58.664 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.config.file=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\conf\logging.properties
+2018-01-31 09:31:58.664 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+2018-01-31 09:31:58.665 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+2018-01-31 09:31:58.665 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+2018-01-31 09:31:58.666 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.platform.setup.folder=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\..\setup
+2018-01-31 09:31:58.666 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.h2.database.dir=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\..\h2_database
+2018-01-31 09:31:58.666 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dsysprop.bonita.db.vendor=postgres
+2018-01-31 09:31:58.667 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dsysprop.bonita.bdm.db.vendor=postgres
+2018-01-31 09:31:58.668 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbtm.root=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server
+2018-01-31 09:31:58.668 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbitronix.tm.configuration=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\conf\bitronix-config.properties
+2018-01-31 09:31:58.669 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.engine.incident.folder=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\logs
+2018-01-31 09:31:58.669 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dfile.encoding=UTF-8
+2018-01-31 09:31:58.670 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Xshare:auto
+2018-01-31 09:31:58.670 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Xms1024m
+2018-01-31 09:31:58.671 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Xmx1024m
+2018-01-31 09:31:58.672 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+2018-01-31 09:31:58.678 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.base=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server
+2018-01-31 09:31:58.683 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.home=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server
+2018-01-31 09:31:58.684 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.io.tmpdir=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\temp
+2018-01-31 09:31:58.684 +0100 INFO: org.apache.catalina.core.AprLifecycleListener The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NoteBook FanControl\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Apache Software Foundation\apache-ant-1.10.1\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.5.2\bin;C:\Users\Clara\AppData\Local\Microsoft\WindowsApps;C:\Users\Clara\AppData\Roaming\npm;;.]
+2018-01-31 09:31:59.364 +0100 INFO: org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2018-01-31 09:31:59.409 +0100 SEVERE: org.apache.coyote.http11.Http11NioProtocol Failed to initialize end point associated with ProtocolHandler ["http-nio-8080"]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:982)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:245)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:620)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:66)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:997)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:644)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+
+2018-01-31 09:31:59.412 +0100 SEVERE: org.apache.catalina.core.StandardService Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:113)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:644)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:1000)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:982)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:245)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:620)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:66)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:997)
+	... 13 more
+
+2018-01-31 09:31:59.418 +0100 INFO: org.apache.coyote.ajp.AjpNioProtocol Initializing ProtocolHandler ["ajp-nio-8009"]
+2018-01-31 09:31:59.421 +0100 SEVERE: org.apache.coyote.ajp.AjpNioProtocol Failed to initialize end point associated with ProtocolHandler ["ajp-nio-8009"]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:982)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:245)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:620)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:997)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:644)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+
+2018-01-31 09:31:59.424 +0100 SEVERE: org.apache.catalina.core.StandardService Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:113)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:644)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:1000)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:982)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:245)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:620)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:997)
+	... 13 more
+
+2018-01-31 09:31:59.430 +0100 INFO: org.apache.catalina.startup.Catalina Initialization processed in 1603 ms
+2018-01-31 09:31:59.431 +0100 INFO: bitronix.tm.integration.tomcat55.BTMLifecycleListener Starting Bitronix Transaction Manager
+2018-01-31 09:31:59.475 +0100 INFO: bitronix.tm.BitronixTransactionManager Bitronix Transaction Manager version 2.1.3
+2018-01-31 09:31:59.500 +0100 INFO: bitronix.tm.Configuration JVM unique ID: <bonita-tomcat-btm-node0>
+2018-01-31 09:31:59.535 +0100 INFO: bitronix.tm.resource.ResourceLoader reading resources configuration from C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server/conf/bitronix-resources.properties
+2018-01-31 09:32:00.385 +0100 INFO: bitronix.tm.recovery.Recoverer recovery committed 0 dangling transaction(s) and rolled back 0 aborted transaction(s) on 2 resource(s) [jdbc/BusinessDataDSXA, jdbc/bonitaDSXA] (restricted to serverId 'bonita-tomcat-btm-node0')
+2018-01-31 09:32:00.438 +0100 INFO: org.apache.catalina.core.StandardService Starting service [Catalina]
+2018-01-31 09:32:00.442 +0100 INFO: org.apache.catalina.core.StandardEngine Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-31 09:32:00.468 +0100 INFO: org.apache.catalina.startup.HostConfig Deploying configuration descriptor [C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\conf\Catalina\localhost\bonita.xml]
+2018-01-31 09:32:05.107 +0100 INFO: org.apache.jasper.servlet.TldScanner At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-31 09:32:30.112 +0100 INFO: org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-31 09:32:30.113 +0100 INFO: org.quartz.core.QuartzScheduler Quartz Scheduler v.2.2.1 created.
+2018-01-31 09:32:30.115 +0100 INFO: org.quartz.plugins.management.ShutdownHookPlugin Registering Quartz shutdown hook.
+2018-01-31 09:32:30.123 +0100 INFO: org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.2.1) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT' - which supports persistence. and is not clustered.
+
+2018-01-31 09:32:30.126 +0100 INFO: org.quartz.core.QuartzScheduler JobFactory set to: org.bonitasoft.engine.scheduler.impl.TransactionalSimpleJobFactory@32f71330
+2018-01-31 09:32:30.334 +0100 INFO: org.quartz.core.QuartzScheduler Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2018-01-31 09:32:35.674 +0100 INFO: org.apache.catalina.startup.HostConfig Deployment of configuration descriptor [C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\conf\Catalina\localhost\bonita.xml] has finished in [35,205] ms
+2018-01-31 09:32:35.675 +0100 INFO: org.apache.catalina.startup.HostConfig Deploying web application directory [C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\webapps\manager]
+2018-01-31 09:32:35.852 +0100 INFO: org.apache.jasper.servlet.TldScanner At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-31 09:32:35.882 +0100 INFO: org.apache.catalina.startup.HostConfig Deployment of web application directory [C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\webapps\manager] has finished in [206] ms
+2018-01-31 09:32:35.882 +0100 INFO: org.apache.catalina.startup.HostConfig Deploying web application directory [C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\webapps\ROOT]
+2018-01-31 09:32:36.005 +0100 INFO: org.apache.jasper.servlet.TldScanner At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-31 09:32:36.009 +0100 INFO: org.apache.catalina.startup.HostConfig Deployment of web application directory [C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\webapps\ROOT] has finished in [127] ms
+2018-01-31 09:32:36.020 +0100 INFO: org.apache.catalina.startup.Catalina Server startup in 36589 ms
+2018-01-31 09:32:36.022 +0100 SEVERE: org.apache.catalina.core.StandardServer StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:441)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:758)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:704)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+
+2018-01-31 09:32:36.024 +0100 INFO: org.apache.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8080"]
+2018-01-31 09:32:36.026 +0100 INFO: org.apache.coyote.ajp.AjpNioProtocol Pausing ProtocolHandler ["ajp-nio-8009"]
+2018-01-31 09:32:36.028 +0100 INFO: org.apache.catalina.core.StandardService Stopping service [Catalina]
+2018-01-31 09:32:36.045 +0100 INFO: org.quartz.core.QuartzScheduler Scheduler QuartzScheduler_$_NON_CLUSTERED shutting down.
+2018-01-31 09:32:36.045 +0100 INFO: org.quartz.core.QuartzScheduler Scheduler QuartzScheduler_$_NON_CLUSTERED paused.
+2018-01-31 09:32:36.108 +0100 INFO: org.quartz.core.QuartzScheduler Scheduler QuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-01-31 09:32:36.176 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@7f254631]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@1ab74558]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:32:36.186 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@dfa0d7f]) and a value of type [org.bonitasoft.engine.session.model.impl.SSessionImpl] (value [org.bonitasoft.engine.session.model.impl.SSessionImpl@94b5d8bb]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:32:36.205 +0100 INFO: bitronix.tm.integration.tomcat55.BTMLifecycleListener Shutting down Bitronix Transaction Manager
+2018-01-31 09:32:36.207 +0100 INFO: bitronix.tm.BitronixTransactionManager shutting down Bitronix Transaction Manager
+2018-01-31 09:32:36.626 +0100 INFO: org.apache.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8080"]
+2018-01-31 09:32:36.627 +0100 INFO: org.apache.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8080"]
+2018-01-31 09:32:36.628 +0100 INFO: org.apache.coyote.ajp.AjpNioProtocol Stopping ProtocolHandler ["ajp-nio-8009"]
+2018-01-31 09:32:36.628 +0100 INFO: org.apache.coyote.ajp.AjpNioProtocol Destroying ProtocolHandler ["ajp-nio-8009"]
+2018-01-31 09:34:03.223 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Server version:        Apache Tomcat/8.5.23
+2018-01-31 09:34:03.225 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Server built:          Sep 28 2017 10:30:11 UTC
+2018-01-31 09:34:03.226 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Server number:         8.5.23.0
+2018-01-31 09:34:03.226 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener OS Name:               Windows 10
+2018-01-31 09:34:03.227 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener OS Version:            10.0
+2018-01-31 09:34:03.227 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Architecture:          amd64
+2018-01-31 09:34:03.228 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Java Home:             C:\Program Files\Java\jdk1.8.0_151\jre
+2018-01-31 09:34:03.228 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener JVM Version:           1.8.0_151-b12
+2018-01-31 09:34:03.228 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener JVM Vendor:            Oracle Corporation
+2018-01-31 09:34:03.229 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener CATALINA_BASE:         C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server
+2018-01-31 09:34:03.229 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener CATALINA_HOME:         C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server
+2018-01-31 09:34:03.230 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.config.file=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\conf\logging.properties
+2018-01-31 09:34:03.231 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+2018-01-31 09:34:03.231 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+2018-01-31 09:34:03.232 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+2018-01-31 09:34:03.232 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.platform.setup.folder=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\..\setup
+2018-01-31 09:34:03.233 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.h2.database.dir=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\..\h2_database
+2018-01-31 09:34:03.233 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dsysprop.bonita.db.vendor=postgres
+2018-01-31 09:34:03.236 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dsysprop.bonita.bdm.db.vendor=postgres
+2018-01-31 09:34:03.239 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbtm.root=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server
+2018-01-31 09:34:03.240 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbitronix.tm.configuration=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\conf\bitronix-config.properties
+2018-01-31 09:34:03.241 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.engine.incident.folder=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\logs
+2018-01-31 09:34:03.242 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dfile.encoding=UTF-8
+2018-01-31 09:34:03.242 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Xshare:auto
+2018-01-31 09:34:03.243 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Xms1024m
+2018-01-31 09:34:03.243 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Xmx1024m
+2018-01-31 09:34:03.244 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+2018-01-31 09:34:03.244 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.base=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server
+2018-01-31 09:34:03.246 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.home=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server
+2018-01-31 09:34:03.247 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.io.tmpdir=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\temp
+2018-01-31 09:34:03.247 +0100 INFO: org.apache.catalina.core.AprLifecycleListener The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NoteBook FanControl\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Apache Software Foundation\apache-ant-1.10.1\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.5.2\bin;C:\Users\Clara\AppData\Local\Microsoft\WindowsApps;C:\Users\Clara\AppData\Roaming\npm;;.]
+2018-01-31 09:34:03.364 +0100 INFO: org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2018-01-31 09:34:03.495 +0100 INFO: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2018-01-31 09:34:03.499 +0100 INFO: org.apache.coyote.ajp.AjpNioProtocol Initializing ProtocolHandler ["ajp-nio-8009"]
+2018-01-31 09:34:03.502 +0100 INFO: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2018-01-31 09:34:03.503 +0100 INFO: org.apache.catalina.startup.Catalina Initialization processed in 736 ms
+2018-01-31 09:34:03.504 +0100 INFO: bitronix.tm.integration.tomcat55.BTMLifecycleListener Starting Bitronix Transaction Manager
+2018-01-31 09:34:03.525 +0100 INFO: bitronix.tm.BitronixTransactionManager Bitronix Transaction Manager version 2.1.3
+2018-01-31 09:34:03.531 +0100 INFO: bitronix.tm.Configuration JVM unique ID: <bonita-tomcat-btm-node0>
+2018-01-31 09:34:03.542 +0100 INFO: bitronix.tm.resource.ResourceLoader reading resources configuration from C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server/conf/bitronix-resources.properties
+2018-01-31 09:34:04.267 +0100 INFO: bitronix.tm.recovery.Recoverer recovery committed 0 dangling transaction(s) and rolled back 0 aborted transaction(s) on 2 resource(s) [jdbc/BusinessDataDSXA, jdbc/bonitaDSXA] (restricted to serverId 'bonita-tomcat-btm-node0')
+2018-01-31 09:34:04.304 +0100 INFO: org.apache.catalina.core.StandardService Starting service [Catalina]
+2018-01-31 09:34:04.305 +0100 INFO: org.apache.catalina.core.StandardEngine Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-31 09:34:04.321 +0100 INFO: org.apache.catalina.startup.HostConfig Deploying configuration descriptor [C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\conf\Catalina\localhost\bonita.xml]
+2018-01-31 09:34:05.626 +0100 INFO: org.apache.jasper.servlet.TldScanner At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-31 09:34:23.425 +0100 INFO: org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-31 09:34:23.426 +0100 INFO: org.quartz.core.QuartzScheduler Quartz Scheduler v.2.2.1 created.
+2018-01-31 09:34:23.429 +0100 INFO: org.quartz.plugins.management.ShutdownHookPlugin Registering Quartz shutdown hook.
+2018-01-31 09:34:23.439 +0100 INFO: org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.2.1) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT' - which supports persistence. and is not clustered.
+
+2018-01-31 09:34:23.442 +0100 INFO: org.quartz.core.QuartzScheduler JobFactory set to: org.bonitasoft.engine.scheduler.impl.TransactionalSimpleJobFactory@51a11c9d
+2018-01-31 09:34:23.489 +0100 INFO: org.quartz.core.QuartzScheduler Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2018-01-31 09:34:27.881 +0100 INFO: org.apache.catalina.startup.HostConfig Deployment of configuration descriptor [C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\conf\Catalina\localhost\bonita.xml] has finished in [23,560] ms
+2018-01-31 09:34:27.892 +0100 INFO: org.apache.catalina.startup.HostConfig Deploying web application directory [C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\webapps\manager]
+2018-01-31 09:34:28.059 +0100 INFO: org.apache.jasper.servlet.TldScanner At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-31 09:34:28.090 +0100 INFO: org.apache.catalina.startup.HostConfig Deployment of web application directory [C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\webapps\manager] has finished in [198] ms
+2018-01-31 09:34:28.094 +0100 INFO: org.apache.catalina.startup.HostConfig Deploying web application directory [C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\webapps\ROOT]
+2018-01-31 09:34:28.213 +0100 INFO: org.apache.jasper.servlet.TldScanner At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-31 09:34:28.216 +0100 INFO: org.apache.catalina.startup.HostConfig Deployment of web application directory [C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\webapps\ROOT] has finished in [122] ms
+2018-01-31 09:34:28.220 +0100 INFO: org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2018-01-31 09:34:28.244 +0100 INFO: org.apache.coyote.ajp.AjpNioProtocol Starting ProtocolHandler ["ajp-nio-8009"]
+2018-01-31 09:34:28.249 +0100 INFO: org.apache.catalina.startup.Catalina Server startup in 24744 ms
+2018-01-31 09:36:37.052 +0100 INFO: org.apache.catalina.core.StandardServer A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+2018-01-31 09:36:37.053 +0100 INFO: org.apache.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8080"]
+2018-01-31 09:36:37.105 +0100 INFO: org.apache.coyote.ajp.AjpNioProtocol Pausing ProtocolHandler ["ajp-nio-8009"]
+2018-01-31 09:36:37.192 +0100 INFO: org.apache.catalina.core.StandardService Stopping service [Catalina]
+2018-01-31 09:36:37.239 +0100 INFO: org.quartz.core.QuartzScheduler Scheduler QuartzScheduler_$_NON_CLUSTERED shutting down.
+2018-01-31 09:36:37.239 +0100 INFO: org.quartz.core.QuartzScheduler Scheduler QuartzScheduler_$_NON_CLUSTERED paused.
+2018-01-31 09:36:37.522 +0100 INFO: org.quartz.core.QuartzScheduler Scheduler QuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-01-31 09:36:37.576 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@5ef5bbe2]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@59e0681a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:36:37.581 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@593293d5]) and a value of type [org.bonitasoft.engine.session.model.impl.SSessionImpl] (value [org.bonitasoft.engine.session.model.impl.SSessionImpl@1ed84e7d]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:36:37.583 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@5ef5bbe2]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@7062aa01]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:36:37.583 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@5ef5bbe2]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@3bb3544]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:36:37.586 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@5ef5bbe2]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@59412d91]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:36:37.586 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@5ef5bbe2]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@1420b157]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:36:37.587 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@71f73370]) and a value of type [org.restlet.engine.util.ChildContext] (value [org.restlet.engine.util.ChildContext@2b3c391f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:36:37.587 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7b41a44c]) and a value of type [org.restlet.Response] (value [WAR - Not Found (404) - The server has not found anything matching the request URI]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:36:37.588 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@5ef5bbe2]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@6a7a187a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:36:37.588 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@5ef5bbe2]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@22decaf6]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:36:37.588 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@5ef5bbe2]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@6860eb73]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:36:37.589 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@5ef5bbe2]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@1ef551f7]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:36:37.589 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@5ef5bbe2]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@24f6239b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:36:37.590 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@5ef5bbe2]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@702bc489]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:36:37.604 +0100 INFO: org.apache.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8080"]
+2018-01-31 09:36:37.608 +0100 INFO: org.apache.coyote.ajp.AjpNioProtocol Stopping ProtocolHandler ["ajp-nio-8009"]
+2018-01-31 09:36:37.611 +0100 INFO: bitronix.tm.integration.tomcat55.BTMLifecycleListener Shutting down Bitronix Transaction Manager
+2018-01-31 09:36:37.612 +0100 INFO: bitronix.tm.BitronixTransactionManager shutting down Bitronix Transaction Manager
+2018-01-31 09:36:38.054 +0100 INFO: org.apache.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8080"]
+2018-01-31 09:36:38.056 +0100 INFO: org.apache.coyote.ajp.AjpNioProtocol Destroying ProtocolHandler ["ajp-nio-8009"]
+2018-01-31 09:40:13.354 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Server version:        Apache Tomcat/8.5.23
+2018-01-31 09:40:13.358 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Server built:          Sep 28 2017 10:30:11 UTC
+2018-01-31 09:40:13.359 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Server number:         8.5.23.0
+2018-01-31 09:40:13.359 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener OS Name:               Windows 10
+2018-01-31 09:40:13.360 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener OS Version:            10.0
+2018-01-31 09:40:13.361 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Architecture:          amd64
+2018-01-31 09:40:13.363 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Java Home:             C:\Program Files\Java\jdk1.8.0_151\jre
+2018-01-31 09:40:13.364 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener JVM Version:           1.8.0_151-b12
+2018-01-31 09:40:13.365 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener JVM Vendor:            Oracle Corporation
+2018-01-31 09:40:13.366 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener CATALINA_BASE:         C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server
+2018-01-31 09:40:13.369 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener CATALINA_HOME:         C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server
+2018-01-31 09:40:13.370 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.config.file=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\conf\logging.properties
+2018-01-31 09:40:13.370 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+2018-01-31 09:40:13.372 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+2018-01-31 09:40:13.372 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+2018-01-31 09:40:13.376 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.platform.setup.folder=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\..\setup
+2018-01-31 09:40:13.376 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.h2.database.dir=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\..\h2_database
+2018-01-31 09:40:13.376 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dsysprop.bonita.db.vendor=postgres
+2018-01-31 09:40:13.379 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dsysprop.bonita.bdm.db.vendor=postgres
+2018-01-31 09:40:13.380 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbtm.root=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server
+2018-01-31 09:40:13.382 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbitronix.tm.configuration=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\conf\bitronix-config.properties
+2018-01-31 09:40:13.383 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.engine.incident.folder=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\logs
+2018-01-31 09:40:13.384 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dfile.encoding=UTF-8
+2018-01-31 09:40:13.384 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Xshare:auto
+2018-01-31 09:40:13.385 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Xms1024m
+2018-01-31 09:40:13.386 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Xmx1024m
+2018-01-31 09:40:13.389 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+2018-01-31 09:40:13.390 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.base=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server
+2018-01-31 09:40:13.393 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.home=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server
+2018-01-31 09:40:13.394 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.io.tmpdir=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\temp
+2018-01-31 09:40:13.394 +0100 INFO: org.apache.catalina.core.AprLifecycleListener The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NoteBook FanControl\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Apache Software Foundation\apache-ant-1.10.1\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.5.2\bin;C:\Users\Clara\AppData\Local\Microsoft\WindowsApps;C:\Users\Clara\AppData\Roaming\npm;;.]
+2018-01-31 09:40:13.518 +0100 INFO: org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2018-01-31 09:40:13.658 +0100 INFO: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2018-01-31 09:40:13.662 +0100 INFO: org.apache.coyote.ajp.AjpNioProtocol Initializing ProtocolHandler ["ajp-nio-8009"]
+2018-01-31 09:40:13.666 +0100 INFO: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2018-01-31 09:40:13.668 +0100 INFO: org.apache.catalina.startup.Catalina Initialization processed in 847 ms
+2018-01-31 09:40:13.669 +0100 INFO: bitronix.tm.integration.tomcat55.BTMLifecycleListener Starting Bitronix Transaction Manager
+2018-01-31 09:40:13.696 +0100 INFO: bitronix.tm.BitronixTransactionManager Bitronix Transaction Manager version 2.1.3
+2018-01-31 09:40:13.699 +0100 INFO: bitronix.tm.Configuration JVM unique ID: <bonita-tomcat-btm-node0>
+2018-01-31 09:40:13.710 +0100 INFO: bitronix.tm.resource.ResourceLoader reading resources configuration from C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server/conf/bitronix-resources.properties
+2018-01-31 09:40:14.397 +0100 INFO: bitronix.tm.recovery.Recoverer recovery committed 0 dangling transaction(s) and rolled back 0 aborted transaction(s) on 2 resource(s) [jdbc/BusinessDataDSXA, jdbc/bonitaDSXA] (restricted to serverId 'bonita-tomcat-btm-node0')
+2018-01-31 09:40:14.424 +0100 INFO: org.apache.catalina.core.StandardService Starting service [Catalina]
+2018-01-31 09:40:14.426 +0100 INFO: org.apache.catalina.core.StandardEngine Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-31 09:40:14.434 +0100 INFO: org.apache.catalina.startup.HostConfig Deploying configuration descriptor [C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\conf\Catalina\localhost\bonita.xml]
+2018-01-31 09:40:16.034 +0100 INFO: org.apache.jasper.servlet.TldScanner At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-31 09:40:34.417 +0100 INFO: org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-31 09:40:34.419 +0100 INFO: org.quartz.core.QuartzScheduler Quartz Scheduler v.2.2.1 created.
+2018-01-31 09:40:34.424 +0100 INFO: org.quartz.plugins.management.ShutdownHookPlugin Registering Quartz shutdown hook.
+2018-01-31 09:40:34.436 +0100 INFO: org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.2.1) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT' - which supports persistence. and is not clustered.
+
+2018-01-31 09:40:34.450 +0100 INFO: org.quartz.core.QuartzScheduler JobFactory set to: org.bonitasoft.engine.scheduler.impl.TransactionalSimpleJobFactory@10432fc
+2018-01-31 09:40:34.514 +0100 INFO: org.quartz.core.QuartzScheduler Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2018-01-31 09:40:39.906 +0100 INFO: org.apache.catalina.startup.HostConfig Deployment of configuration descriptor [C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\conf\Catalina\localhost\bonita.xml] has finished in [25,467] ms
+2018-01-31 09:40:39.912 +0100 INFO: org.apache.catalina.startup.HostConfig Deploying web application directory [C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\webapps\manager]
+2018-01-31 09:40:40.087 +0100 INFO: org.apache.jasper.servlet.TldScanner At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-31 09:40:40.094 +0100 INFO: org.apache.catalina.startup.HostConfig Deployment of web application directory [C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\webapps\manager] has finished in [182] ms
+2018-01-31 09:40:40.095 +0100 INFO: org.apache.catalina.startup.HostConfig Deploying web application directory [C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\webapps\ROOT]
+2018-01-31 09:40:40.219 +0100 INFO: org.apache.jasper.servlet.TldScanner At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-31 09:40:40.224 +0100 INFO: org.apache.catalina.startup.HostConfig Deployment of web application directory [C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\webapps\ROOT] has finished in [130] ms
+2018-01-31 09:40:40.230 +0100 INFO: org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2018-01-31 09:40:40.250 +0100 INFO: org.apache.coyote.ajp.AjpNioProtocol Starting ProtocolHandler ["ajp-nio-8009"]
+2018-01-31 09:40:40.254 +0100 INFO: org.apache.catalina.startup.Catalina Server startup in 26584 ms
+2018-01-31 09:41:33.080 +0100 INFO: org.apache.catalina.core.StandardServer A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+2018-01-31 09:41:33.080 +0100 INFO: org.apache.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8080"]
+2018-01-31 09:41:33.132 +0100 INFO: org.apache.coyote.ajp.AjpNioProtocol Pausing ProtocolHandler ["ajp-nio-8009"]
+2018-01-31 09:41:33.220 +0100 INFO: org.apache.catalina.core.StandardService Stopping service [Catalina]
+2018-01-31 09:41:33.251 +0100 INFO: org.quartz.core.QuartzScheduler Scheduler QuartzScheduler_$_NON_CLUSTERED shutting down.
+2018-01-31 09:41:33.252 +0100 INFO: org.quartz.core.QuartzScheduler Scheduler QuartzScheduler_$_NON_CLUSTERED paused.
+2018-01-31 09:41:33.404 +0100 INFO: org.quartz.core.QuartzScheduler Scheduler QuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-01-31 09:41:33.461 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@42854fd5]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@685221ca]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:41:33.462 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@42854fd5]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@8d9e1dc]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:41:33.464 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@42854fd5]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@4c0d7d37]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:41:33.465 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@42854fd5]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@241e7884]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:41:33.468 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@42854fd5]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@5d3b51bc]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:41:33.468 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1a2b8cc6]) and a value of type [org.bonitasoft.engine.session.model.impl.SSessionImpl] (value [org.bonitasoft.engine.session.model.impl.SSessionImpl@826d48b5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:41:33.468 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@42854fd5]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@3d68be71]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:41:33.469 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@42854fd5]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@6a653b00]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:41:33.469 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@42854fd5]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@6d542141]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:41:33.470 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@42854fd5]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@2bdfdd91]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:41:33.470 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@533c65ad]) and a value of type [org.restlet.engine.util.ChildContext] (value [org.restlet.engine.util.ChildContext@1042f9f1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:41:33.471 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5cd08c91]) and a value of type [org.restlet.Response] (value [WAR - Not Found (404) - The server has not found anything matching the request URI]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:41:33.472 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@42854fd5]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@9b6f1cf]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:41:33.475 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@42854fd5]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@3997fc59]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 09:41:33.502 +0100 INFO: org.apache.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8080"]
+2018-01-31 09:41:33.504 +0100 INFO: org.apache.coyote.ajp.AjpNioProtocol Stopping ProtocolHandler ["ajp-nio-8009"]
+2018-01-31 09:41:33.506 +0100 INFO: bitronix.tm.integration.tomcat55.BTMLifecycleListener Shutting down Bitronix Transaction Manager
+2018-01-31 09:41:33.506 +0100 INFO: bitronix.tm.BitronixTransactionManager shutting down Bitronix Transaction Manager
+2018-01-31 09:41:33.916 +0100 INFO: org.apache.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8080"]
+2018-01-31 09:41:33.917 +0100 INFO: org.apache.coyote.ajp.AjpNioProtocol Destroying ProtocolHandler ["ajp-nio-8009"]
+2018-01-31 09:44:41.614 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Server version:        Apache Tomcat/8.5.23
+2018-01-31 09:44:41.617 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Server built:          Sep 28 2017 10:30:11 UTC
+2018-01-31 09:44:41.617 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Server number:         8.5.23.0
+2018-01-31 09:44:41.618 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener OS Name:               Windows 10
+2018-01-31 09:44:41.619 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener OS Version:            10.0
+2018-01-31 09:44:41.620 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Architecture:          amd64
+2018-01-31 09:44:41.621 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Java Home:             C:\Program Files\Java\jdk1.8.0_151\jre
+2018-01-31 09:44:41.622 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener JVM Version:           1.8.0_151-b12
+2018-01-31 09:44:41.622 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener JVM Vendor:            Oracle Corporation
+2018-01-31 09:44:41.622 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener CATALINA_BASE:         C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server
+2018-01-31 09:44:41.623 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener CATALINA_HOME:         C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server
+2018-01-31 09:44:41.624 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.config.file=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\conf\logging.properties
+2018-01-31 09:44:41.625 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+2018-01-31 09:44:41.625 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+2018-01-31 09:44:41.627 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+2018-01-31 09:44:41.629 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.platform.setup.folder=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\..\setup
+2018-01-31 09:44:41.630 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.h2.database.dir=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\..\h2_database
+2018-01-31 09:44:41.632 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dsysprop.bonita.db.vendor=postgres
+2018-01-31 09:44:41.633 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dsysprop.bonita.bdm.db.vendor=postgres
+2018-01-31 09:44:41.633 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbtm.root=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server
+2018-01-31 09:44:41.634 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dbitronix.tm.configuration=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\conf\bitronix-config.properties
+2018-01-31 09:44:41.635 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dorg.bonitasoft.engine.incident.folder=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\logs
+2018-01-31 09:44:41.637 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dfile.encoding=UTF-8
+2018-01-31 09:44:41.639 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Xshare:auto
+2018-01-31 09:44:41.641 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Xms1024m
+2018-01-31 09:44:41.642 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Xmx1024m
+2018-01-31 09:44:41.643 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+2018-01-31 09:44:41.643 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.base=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server
+2018-01-31 09:44:41.644 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Dcatalina.home=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server
+2018-01-31 09:44:41.645 +0100 INFO: org.apache.catalina.startup.VersionLoggerListener Command line argument: -Djava.io.tmpdir=C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\temp
+2018-01-31 09:44:41.647 +0100 INFO: org.apache.catalina.core.AprLifecycleListener The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NoteBook FanControl\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Apache Software Foundation\apache-ant-1.10.1\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.5.2\bin;C:\Users\Clara\AppData\Local\Microsoft\WindowsApps;C:\Users\Clara\AppData\Roaming\npm;;.]
+2018-01-31 09:44:41.770 +0100 INFO: org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2018-01-31 09:44:41.901 +0100 INFO: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2018-01-31 09:44:41.906 +0100 INFO: org.apache.coyote.ajp.AjpNioProtocol Initializing ProtocolHandler ["ajp-nio-8009"]
+2018-01-31 09:44:41.913 +0100 INFO: org.apache.tomcat.util.net.NioSelectorPool Using a shared selector for servlet write/read
+2018-01-31 09:44:41.914 +0100 INFO: org.apache.catalina.startup.Catalina Initialization processed in 703 ms
+2018-01-31 09:44:41.914 +0100 INFO: bitronix.tm.integration.tomcat55.BTMLifecycleListener Starting Bitronix Transaction Manager
+2018-01-31 09:44:41.940 +0100 INFO: bitronix.tm.BitronixTransactionManager Bitronix Transaction Manager version 2.1.3
+2018-01-31 09:44:41.947 +0100 INFO: bitronix.tm.Configuration JVM unique ID: <bonita-tomcat-btm-node0>
+2018-01-31 09:44:41.965 +0100 INFO: bitronix.tm.resource.ResourceLoader reading resources configuration from C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server/conf/bitronix-resources.properties
+2018-01-31 09:44:42.837 +0100 INFO: bitronix.tm.recovery.Recoverer recovery committed 0 dangling transaction(s) and rolled back 0 aborted transaction(s) on 2 resource(s) [jdbc/BusinessDataDSXA, jdbc/bonitaDSXA] (restricted to serverId 'bonita-tomcat-btm-node0')
+2018-01-31 09:44:42.861 +0100 INFO: org.apache.catalina.core.StandardService Starting service [Catalina]
+2018-01-31 09:44:42.862 +0100 INFO: org.apache.catalina.core.StandardEngine Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-31 09:44:42.870 +0100 INFO: org.apache.catalina.startup.HostConfig Deploying configuration descriptor [C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\conf\Catalina\localhost\bonita.xml]
+2018-01-31 09:44:44.155 +0100 INFO: org.apache.jasper.servlet.TldScanner At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-31 09:45:03.815 +0100 INFO: org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-31 09:45:03.817 +0100 INFO: org.quartz.core.QuartzScheduler Quartz Scheduler v.2.2.1 created.
+2018-01-31 09:45:03.821 +0100 INFO: org.quartz.plugins.management.ShutdownHookPlugin Registering Quartz shutdown hook.
+2018-01-31 09:45:03.835 +0100 INFO: org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.2.1) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.bonitasoft.engine.scheduler.impl.BonitaJobStoreCMT' - which supports persistence. and is not clustered.
+
+2018-01-31 09:45:03.843 +0100 INFO: org.quartz.core.QuartzScheduler JobFactory set to: org.bonitasoft.engine.scheduler.impl.TransactionalSimpleJobFactory@10432fc
+2018-01-31 09:45:03.891 +0100 INFO: org.quartz.core.QuartzScheduler Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2018-01-31 09:45:08.274 +0100 INFO: org.apache.catalina.startup.HostConfig Deployment of configuration descriptor [C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\conf\Catalina\localhost\bonita.xml] has finished in [25,403] ms
+2018-01-31 09:45:08.275 +0100 INFO: org.apache.catalina.startup.HostConfig Deploying web application directory [C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\webapps\manager]
+2018-01-31 09:45:08.550 +0100 INFO: org.apache.jasper.servlet.TldScanner At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-31 09:45:08.582 +0100 INFO: org.apache.catalina.startup.HostConfig Deployment of web application directory [C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\webapps\manager] has finished in [307] ms
+2018-01-31 09:45:08.583 +0100 INFO: org.apache.catalina.startup.HostConfig Deploying web application directory [C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\webapps\ROOT]
+2018-01-31 09:45:08.720 +0100 INFO: org.apache.jasper.servlet.TldScanner At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-31 09:45:08.722 +0100 INFO: org.apache.catalina.startup.HostConfig Deployment of web application directory [C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\webapps\ROOT] has finished in [139] ms
+2018-01-31 09:45:08.726 +0100 INFO: org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2018-01-31 09:45:08.736 +0100 INFO: org.apache.coyote.ajp.AjpNioProtocol Starting ProtocolHandler ["ajp-nio-8009"]
+2018-01-31 09:45:08.739 +0100 INFO: org.apache.catalina.startup.Catalina Server startup in 26824 ms
+2018-01-31 09:46:50.766 +0100 INFO: java.sql.DatabaseMetaData HHH000262: Table not found: FORECAST
+2018-01-31 09:46:50.855 +0100 INFO: java.sql.DatabaseMetaData HHH000262: Table not found: FORECAST
+2018-01-31 09:46:50.857 +0100 INFO: java.sql.DatabaseMetaData HHH000262: Table not found: FORECAST
+2018-01-31 09:57:43.762 +0100 INFO: bitronix.tm.recovery.Recoverer recoverer is already running, abandoning this recovery request
+2018-01-31 09:57:43.763 +0100 INFO: bitronix.tm.recovery.Recoverer recoverer is already running, abandoning this recovery request
+2018-01-31 09:57:44.998 +0100 INFO: bitronix.tm.recovery.Recoverer recoverer is already running, abandoning this recovery request
+2018-01-31 09:57:45.000 +0100 INFO: bitronix.tm.recovery.Recoverer recoverer is already running, abandoning this recovery request
+2018-01-31 10:02:05.350 +0100 INFO: org.apache.catalina.core.StandardServer A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+2018-01-31 10:02:05.353 +0100 INFO: org.apache.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8080"]
+2018-01-31 10:02:05.485 +0100 INFO: org.apache.coyote.ajp.AjpNioProtocol Pausing ProtocolHandler ["ajp-nio-8009"]
+2018-01-31 10:02:05.640 +0100 INFO: org.apache.catalina.core.StandardService Stopping service [Catalina]
+2018-01-31 10:02:05.663 +0100 INFO: org.quartz.core.QuartzScheduler Scheduler QuartzScheduler_$_NON_CLUSTERED shutting down.
+2018-01-31 10:02:05.664 +0100 INFO: org.quartz.core.QuartzScheduler Scheduler QuartzScheduler_$_NON_CLUSTERED paused.
+2018-01-31 10:02:05.979 +0100 INFO: org.quartz.core.QuartzScheduler Scheduler QuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-01-31 10:02:06.058 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@69ec0a78]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@1cb3c330]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 10:02:06.058 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@69ec0a78]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@e024260]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 10:02:06.060 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@144e6e5a]) and a value of type [org.bonitasoft.engine.session.model.impl.SSessionImpl] (value [org.bonitasoft.engine.session.model.impl.SSessionImpl@47cee59b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 10:02:06.060 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@69ec0a78]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@1d780961]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 10:02:06.062 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@144e6e5a]) and a value of type [org.bonitasoft.engine.session.model.impl.SSessionImpl] (value [org.bonitasoft.engine.session.model.impl.SSessionImpl@2904e840]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 10:02:06.063 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@69ec0a78]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@1fd0e3bd]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 10:02:06.063 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@69ec0a78]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@35db365]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 10:02:06.064 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@144e6e5a]) and a value of type [org.bonitasoft.engine.session.model.impl.SSessionImpl] (value [org.bonitasoft.engine.session.model.impl.SSessionImpl@7dbe8a19]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 10:02:06.064 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@69ec0a78]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@648621ea]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 10:02:06.065 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@144e6e5a]) and a value of type [org.bonitasoft.engine.session.model.impl.SSessionImpl] (value [org.bonitasoft.engine.session.model.impl.SSessionImpl@ea0805c8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 10:02:06.065 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@39681f1a]) and a value of type [org.restlet.engine.util.ChildContext] (value [org.restlet.engine.util.ChildContext@213dce81]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 10:02:06.066 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@69ec0a78]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@4f959758]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 10:02:06.066 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1a496631]) and a value of type [org.restlet.Response] (value [WAR - Not Found (404) - The server has not found anything matching the request URI]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 10:02:06.066 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@69ec0a78]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@63203aad]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 10:02:06.067 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@144e6e5a]) and a value of type [org.bonitasoft.engine.session.model.impl.SSessionImpl] (value [org.bonitasoft.engine.session.model.impl.SSessionImpl@9b73198a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 10:02:06.067 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@69ec0a78]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@2ca6a98e]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 10:02:06.071 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@69ec0a78]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@4f6ad415]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 10:02:06.071 +0100 SEVERE: org.apache.catalina.loader.WebappClassLoaderBase The web application [bonita] created a ThreadLocal with key of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContextThreadLocal] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContextThreadLocal@69ec0a78]) and a value of type [org.bonitasoft.engine.transaction.JTATransactionServiceImpl.TransactionServiceContext] (value [org.bonitasoft.engine.transaction.JTATransactionServiceImpl$TransactionServiceContext@1e435b27]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2018-01-31 10:02:06.089 +0100 INFO: org.apache.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8080"]
+2018-01-31 10:02:06.093 +0100 INFO: org.apache.coyote.ajp.AjpNioProtocol Stopping ProtocolHandler ["ajp-nio-8009"]
+2018-01-31 10:02:06.096 +0100 INFO: bitronix.tm.integration.tomcat55.BTMLifecycleListener Shutting down Bitronix Transaction Manager
+2018-01-31 10:02:06.096 +0100 INFO: bitronix.tm.BitronixTransactionManager shutting down Bitronix Transaction Manager
+2018-01-31 10:02:06.501 +0100 INFO: org.apache.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8080"]
+2018-01-31 10:02:06.503 +0100 INFO: org.apache.coyote.ajp.AjpNioProtocol Destroying ProtocolHandler ["ajp-nio-8009"]

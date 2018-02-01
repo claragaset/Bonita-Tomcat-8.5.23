@@ -1,0 +1,436 @@
+2018-01-29 10:08:08.604 +0100 INFO: org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/bonita] No Spring WebApplicationInitializer types detected on classpath
+2018-01-29 10:08:08.692 +0100 INFO: org.bonitasoft.platform.setup.ScriptExecutor configuration for Database vendor: postgres
+2018-01-29 10:08:08.694 +0100 INFO: org.bonitasoft.platform.setup.PlatformSetup System property org.bonitasoft.platform.setup.folder is set to C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\..\setup
+2018-01-29 10:08:08.705 +0100 INFO: org.bonitasoft.platform.setup.PlatformSetup Connected to 'postgres' database with url: 'jdbc:postgresql://127.0.0.1:5432/bonita' with user: 'postgres'
+2018-01-29 10:08:08.744 +0100 INFO: org.bonitasoft.platform.setup.PlatformSetup Platform is already created.
+2018-01-29 10:08:08.744 +0100 INFO: org.bonitasoft.platform.setup.PlatformSetup Upgrading default configuration with files from folder: C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\..\setup\platform_conf\initial
+2018-01-29 10:08:08.797 +0100 INFO: org.bonitasoft.engine.EngineInitializer Initializing Bonita Engine...
+2018-01-29 10:08:18.269 +0100 INFO: org.bonitasoft.engine.EngineInitializer First run on this platform, initializing it...
+2018-01-29 10:08:21.663 +0100 INFO: org.bonitasoft.engine.EngineInitializer Platform initialized successfully.
+2018-01-29 10:08:21.663 +0100 INFO: org.bonitasoft.engine.EngineInitializer Starting node...
+2018-01-29 10:08:22.532 +0100 INFO: org.bonitasoft.engine.EngineInitializer Node started successfully.
+2018-01-29 10:08:22.533 +0100 INFO: org.bonitasoft.engine.EngineInitializer Initialization of Bonita Engine done! ( took 13736ms)
+2018-01-29 10:09:50.958 +0100 INFO: org.bonitasoft.engine.EngineInitializer Stopping Bonita Engine...
+2018-01-29 10:09:50.958 +0100 INFO: org.bonitasoft.engine.EngineInitializer Stopping node...
+2018-01-29 10:09:51.195 +0100 INFO: org.bonitasoft.engine.EngineInitializer Bonita Engine stopped!
+2018-01-29 10:10:01.646 +0100 INFO: org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/bonita] No Spring WebApplicationInitializer types detected on classpath
+2018-01-29 10:10:01.762 +0100 INFO: org.bonitasoft.platform.setup.ScriptExecutor configuration for Database vendor: postgres
+2018-01-29 10:10:01.765 +0100 INFO: org.bonitasoft.platform.setup.PlatformSetup System property org.bonitasoft.platform.setup.folder is set to C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\..\setup
+2018-01-29 10:10:01.777 +0100 INFO: org.bonitasoft.platform.setup.PlatformSetup Connected to 'postgres' database with url: 'jdbc:postgresql://127.0.0.1:5432/bonita' with user: 'postgres'
+2018-01-29 10:10:01.818 +0100 INFO: org.bonitasoft.platform.setup.PlatformSetup Platform is already created.
+2018-01-29 10:10:01.819 +0100 INFO: org.bonitasoft.platform.setup.PlatformSetup Upgrading default configuration with files from folder: C:\BonitaCommunity-7.6.1-Tomcat-8.5.23\server\..\setup\platform_conf\initial
+2018-01-29 10:10:01.883 +0100 INFO: org.bonitasoft.engine.EngineInitializer Initializing Bonita Engine...
+2018-01-29 10:10:11.237 +0100 INFO: org.bonitasoft.engine.EngineInitializer Platform is already initialized.
+2018-01-29 10:10:11.237 +0100 INFO: org.bonitasoft.engine.EngineInitializer Starting node...
+2018-01-29 10:10:15.313 +0100 INFO: org.bonitasoft.engine.EngineInitializer Node started successfully.
+2018-01-29 10:10:15.313 +0100 INFO: org.bonitasoft.engine.EngineInitializer Initialization of Bonita Engine done! ( took 13430ms)
+2018-01-29 10:10:44.351 +0100 SEVERE: org.bonitasoft.console.common.server.login.credentials.LoginDatastore Error while logging in the engine API.
+2018-01-29 10:10:52.194 +0100 SEVERE: org.bonitasoft.console.common.server.login.credentials.LoginDatastore Error while logging in the engine API.
+2018-01-29 10:11:06.416 +0100 INFO: org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/bonita] RestletServlet: [Restlet] ServerServlet: component class is null
+2018-01-29 10:11:07.049 +0100 INFO: org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/bonita] RestletServlet: [Restlet] Attaching application: org.bonitasoft.web.rest.server.BonitaRestletApplication@6373d938 to URI: /bonita/API
+2018-01-29 10:11:07.069 +0100 INFO: org.restlet.Component.BonitaRestletApplication Starting org.bonitasoft.web.rest.server.BonitaRestletApplication application
+2018-01-29 10:17:25.938 +0100 WARNING: org.hibernate.ejb.HibernatePersistence HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2018-01-29 10:17:25.939 +0100 WARNING: org.hibernate.ejb.HibernatePersistence HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2018-01-29 10:17:25.939 +0100 WARNING: org.hibernate.ejb.HibernatePersistence HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2018-01-29 10:17:31.407 +0100 WARNING: org.hibernate.ejb.HibernatePersistence HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2018-01-29 10:17:31.408 +0100 WARNING: org.hibernate.ejb.HibernatePersistence HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2018-01-29 10:17:31.408 +0100 WARNING: org.hibernate.ejb.HibernatePersistence HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2018-01-29 10:19:01.659 +0100 SEVERE: org.bonitasoft Ghana
+2018-01-29 10:19:01.659 +0100 SEVERE: org.bonitasoft Nigeria
+2018-01-29 10:19:01.659 +0100 SEVERE: org.bonitasoft Samoa
+2018-01-29 10:19:02.525 +0100 SEVERE: org.bonitasoft 3
+2018-01-29 10:19:02.787 +0100 SEVERE: org.bonitasoft 3
+2018-01-29 10:19:02.997 +0100 SEVERE: org.bonitasoft Nigeria
+2018-01-29 10:19:02.997 +0100 SEVERE: org.bonitasoft  returning true
+2018-01-29 10:19:03.048 +0100 SEVERE: org.bonitasoft Ghana
+2018-01-29 10:19:03.048 +0100 SEVERE: org.bonitasoft  returning true
+2018-01-29 10:19:03.115 +0100 SEVERE: org.bonitasoft 3
+2018-01-29 10:19:03.169 +0100 SEVERE: org.bonitasoft DONE AND VALID Ghana
+2018-01-29 10:19:03.169 +0100 SEVERE: org.bonitasoft DONE AND VALID Nigeria
+2018-01-29 10:19:03.345 +0100 SEVERE: org.bonitasoft PREPARING PENDING TO Nigeria
+2018-01-29 10:19:03.548 +0100 SEVERE: org.bonitasoft Samoa
+2018-01-29 10:19:03.548 +0100 SEVERE: org.bonitasoft  returning false
+2018-01-29 10:19:03.591 +0100 SEVERE: org.bonitasoft PREPARING PENDING TO Samoa
+2018-01-29 10:19:05.694 +0100 SEVERE: org.bonitasoft.engine.execution.work.InSessionBonitaWork THREAD_ID=121 | HOSTNAME=DESKTOP-TUE9JDC | TENANT_ID=1 | The work [ExecuteConnectorOfActivity: flowNodeInstanceId = 21, connectorDefinitionName = preparePending] failed. The failure will be handled.
+2018-01-29 10:19:05.694 +0100 SEVERE: org.bonitasoft.engine.execution.work.InSessionBonitaWork THREAD_ID=122 | HOSTNAME=DESKTOP-TUE9JDC | TENANT_ID=1 | The work [ExecuteConnectorOfActivity: flowNodeInstanceId = 28, connectorDefinitionName = preparePending] failed. The failure will be handled.
+2018-01-29 10:19:05.712 +0100 SEVERE: org.bonitasoft.engine.execution.work.InSessionBonitaWork THREAD_ID=121 | HOSTNAME=DESKTOP-TUE9JDC | TENANT_ID=1 | org.bonitasoft.engine.core.connector.exception.SConnectorException : "PROCESS_DEFINITION_ID=6147540283931430231 | PROCESS_NAME=Medicine Forecast | PROCESS_VERSION=3.0 | PROCESS_INSTANCE_ID=3 | ROOT_PROCESS_INSTANCE_ID=1 | FLOW_NODE_DEFINITION_ID=5379319459363126765 | FLOW_NODE_INSTANCE_ID=21 | FLOW_NODE_NAME=Call Forecast Subprocess | CONNECTOR_IMPLEMENTATION_CLASS_NAME=preparePending | CONNECTOR_INSTANCE_ID=1 | org.bonitasoft.engine.connector.exception.SConnectorException: java.util.concurrent.ExecutionException: org.bonitasoft.engine.connector.exception.SConnectorException: org.bonitasoft.engine.connector.ConnectorException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server."
+org.bonitasoft.engine.core.connector.exception.SConnectorException: PROCESS_DEFINITION_ID=6147540283931430231 | PROCESS_NAME=Medicine Forecast | PROCESS_VERSION=3.0 | PROCESS_INSTANCE_ID=3 | ROOT_PROCESS_INSTANCE_ID=1 | FLOW_NODE_DEFINITION_ID=5379319459363126765 | FLOW_NODE_INSTANCE_ID=21 | FLOW_NODE_NAME=Call Forecast Subprocess | CONNECTOR_IMPLEMENTATION_CLASS_NAME=preparePending | CONNECTOR_INSTANCE_ID=1 | org.bonitasoft.engine.connector.exception.SConnectorException: java.util.concurrent.ExecutionException: org.bonitasoft.engine.connector.exception.SConnectorException: org.bonitasoft.engine.connector.ConnectorException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.bonitasoft.engine.core.connector.impl.ConnectorServiceImpl.executeConnectorInClassloader(ConnectorServiceImpl.java:285)
+	at org.bonitasoft.engine.core.connector.impl.ConnectorServiceImpl.executeConnector(ConnectorServiceImpl.java:158)
+	at org.bonitasoft.engine.connector.ConnectorServiceDecorator.executeConnector(ConnectorServiceDecorator.java:114)
+	at org.bonitasoft.engine.execution.work.ExecuteConnectorWork.work(ExecuteConnectorWork.java:138)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:42)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:58)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$0(BonitaThreadPoolExecutor.java:90)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.bonitasoft.engine.connector.exception.SConnectorException: java.util.concurrent.ExecutionException: org.bonitasoft.engine.connector.exception.SConnectorException: org.bonitasoft.engine.connector.ConnectorException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl.execute(ConnectorExecutorImpl.java:125)
+	at org.bonitasoft.engine.core.connector.impl.ConnectorServiceImpl.executeConnectorInClassloader(ConnectorServiceImpl.java:279)
+	... 12 more
+Caused by: java.util.concurrent.ExecutionException: org.bonitasoft.engine.connector.exception.SConnectorException: org.bonitasoft.engine.connector.ConnectorException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl.getValue(ConnectorExecutorImpl.java:149)
+	at org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl.execute(ConnectorExecutorImpl.java:122)
+	... 13 more
+Caused by: org.bonitasoft.engine.connector.exception.SConnectorException: org.bonitasoft.engine.connector.ConnectorException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.bonitasoft.engine.core.connector.impl.SConnectorAdapter.connect(SConnectorAdapter.java:84)
+	at org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl$ExecuteConnectorCallable.call(ConnectorExecutorImpl.java:205)
+	at org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl$ExecuteConnectorCallable.call(ConnectorExecutorImpl.java:176)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	... 3 more
+Caused by: org.bonitasoft.engine.connector.ConnectorException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.bonitasoft.connectors.database.jdbc.JdbcConnector.connect(JdbcConnector.java:145)
+	at org.bonitasoft.engine.core.connector.impl.SConnectorAdapter.connect(SConnectorAdapter.java:82)
+	... 6 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1117)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:355)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2461)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2498)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2283)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:822)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:404)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:317)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.bonitasoft.connectors.database.Database.<init>(Database.java:47)
+	at org.bonitasoft.connectors.database.jdbc.JdbcConnector.connect(JdbcConnector.java:143)
+	... 7 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:244)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:259)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:305)
+	... 23 more
+
+2018-01-29 10:19:05.720 +0100 SEVERE: org.bonitasoft.engine.execution.work.InSessionBonitaWork THREAD_ID=122 | HOSTNAME=DESKTOP-TUE9JDC | TENANT_ID=1 | org.bonitasoft.engine.core.connector.exception.SConnectorException : "PROCESS_DEFINITION_ID=6147540283931430231 | PROCESS_NAME=Medicine Forecast | PROCESS_VERSION=3.0 | PROCESS_INSTANCE_ID=4 | ROOT_PROCESS_INSTANCE_ID=1 | FLOW_NODE_DEFINITION_ID=5379319459363126765 | FLOW_NODE_INSTANCE_ID=28 | FLOW_NODE_NAME=Call Forecast Subprocess | CONNECTOR_IMPLEMENTATION_CLASS_NAME=preparePending | CONNECTOR_INSTANCE_ID=2 | org.bonitasoft.engine.connector.exception.SConnectorException: java.util.concurrent.ExecutionException: org.bonitasoft.engine.connector.exception.SConnectorException: org.bonitasoft.engine.connector.ConnectorException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server."
+org.bonitasoft.engine.core.connector.exception.SConnectorException: PROCESS_DEFINITION_ID=6147540283931430231 | PROCESS_NAME=Medicine Forecast | PROCESS_VERSION=3.0 | PROCESS_INSTANCE_ID=4 | ROOT_PROCESS_INSTANCE_ID=1 | FLOW_NODE_DEFINITION_ID=5379319459363126765 | FLOW_NODE_INSTANCE_ID=28 | FLOW_NODE_NAME=Call Forecast Subprocess | CONNECTOR_IMPLEMENTATION_CLASS_NAME=preparePending | CONNECTOR_INSTANCE_ID=2 | org.bonitasoft.engine.connector.exception.SConnectorException: java.util.concurrent.ExecutionException: org.bonitasoft.engine.connector.exception.SConnectorException: org.bonitasoft.engine.connector.ConnectorException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.bonitasoft.engine.core.connector.impl.ConnectorServiceImpl.executeConnectorInClassloader(ConnectorServiceImpl.java:285)
+	at org.bonitasoft.engine.core.connector.impl.ConnectorServiceImpl.executeConnector(ConnectorServiceImpl.java:158)
+	at org.bonitasoft.engine.connector.ConnectorServiceDecorator.executeConnector(ConnectorServiceDecorator.java:114)
+	at org.bonitasoft.engine.execution.work.ExecuteConnectorWork.work(ExecuteConnectorWork.java:138)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:42)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:58)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$0(BonitaThreadPoolExecutor.java:90)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.bonitasoft.engine.connector.exception.SConnectorException: java.util.concurrent.ExecutionException: org.bonitasoft.engine.connector.exception.SConnectorException: org.bonitasoft.engine.connector.ConnectorException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl.execute(ConnectorExecutorImpl.java:125)
+	at org.bonitasoft.engine.core.connector.impl.ConnectorServiceImpl.executeConnectorInClassloader(ConnectorServiceImpl.java:279)
+	... 12 more
+Caused by: java.util.concurrent.ExecutionException: org.bonitasoft.engine.connector.exception.SConnectorException: org.bonitasoft.engine.connector.ConnectorException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl.getValue(ConnectorExecutorImpl.java:149)
+	at org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl.execute(ConnectorExecutorImpl.java:122)
+	... 13 more
+Caused by: org.bonitasoft.engine.connector.exception.SConnectorException: org.bonitasoft.engine.connector.ConnectorException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.bonitasoft.engine.core.connector.impl.SConnectorAdapter.connect(SConnectorAdapter.java:84)
+	at org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl$ExecuteConnectorCallable.call(ConnectorExecutorImpl.java:205)
+	at org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl$ExecuteConnectorCallable.call(ConnectorExecutorImpl.java:176)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	... 3 more
+Caused by: org.bonitasoft.engine.connector.ConnectorException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.bonitasoft.connectors.database.jdbc.JdbcConnector.connect(JdbcConnector.java:145)
+	at org.bonitasoft.engine.core.connector.impl.SConnectorAdapter.connect(SConnectorAdapter.java:82)
+	... 6 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1117)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:355)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2461)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2498)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2283)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:822)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:404)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:317)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.bonitasoft.connectors.database.Database.<init>(Database.java:47)
+	at org.bonitasoft.connectors.database.jdbc.JdbcConnector.connect(JdbcConnector.java:143)
+	... 7 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:244)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:259)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:305)
+	... 23 more
+
+2018-01-29 10:21:02.825 +0100 SEVERE: org.bonitasoft Ghana
+2018-01-29 10:21:02.825 +0100 SEVERE: org.bonitasoft Nigeria
+2018-01-29 10:21:02.825 +0100 SEVERE: org.bonitasoft Samoa
+2018-01-29 10:21:03.010 +0100 SEVERE: org.bonitasoft 3
+2018-01-29 10:21:03.146 +0100 SEVERE: org.bonitasoft Samoa
+2018-01-29 10:21:03.147 +0100 SEVERE: org.bonitasoft  returning false
+2018-01-29 10:21:03.241 +0100 SEVERE: org.bonitasoft PREPARING PENDING TO Samoa
+2018-01-29 10:21:03.246 +0100 SEVERE: org.bonitasoft 3
+2018-01-29 10:21:03.360 +0100 SEVERE: org.bonitasoft Ghana
+2018-01-29 10:21:03.360 +0100 SEVERE: org.bonitasoft  returning true
+2018-01-29 10:21:03.371 +0100 SEVERE: org.bonitasoft 3
+2018-01-29 10:21:03.436 +0100 SEVERE: org.bonitasoft DONE AND VALID Ghana
+2018-01-29 10:21:03.462 +0100 SEVERE: org.bonitasoft Nigeria
+2018-01-29 10:21:03.462 +0100 SEVERE: org.bonitasoft  returning true
+2018-01-29 10:21:03.503 +0100 SEVERE: org.bonitasoft DONE AND VALID Nigeria
+2018-01-29 10:21:03.547 +0100 SEVERE: org.bonitasoft PREPARING PENDING TO Nigeria
+2018-01-29 10:21:05.574 +0100 SEVERE: org.bonitasoft.engine.execution.work.InSessionBonitaWork THREAD_ID=122 | HOSTNAME=DESKTOP-TUE9JDC | TENANT_ID=1 | The work [ExecuteConnectorOfActivity: flowNodeInstanceId = 39, connectorDefinitionName = preparePending] failed. The failure will be handled.
+2018-01-29 10:21:05.574 +0100 SEVERE: org.bonitasoft.engine.execution.work.InSessionBonitaWork THREAD_ID=127 | HOSTNAME=DESKTOP-TUE9JDC | TENANT_ID=1 | The work [ExecuteConnectorOfActivity: flowNodeInstanceId = 56, connectorDefinitionName = preparePending] failed. The failure will be handled.
+2018-01-29 10:21:05.603 +0100 SEVERE: org.bonitasoft.engine.execution.work.InSessionBonitaWork THREAD_ID=127 | HOSTNAME=DESKTOP-TUE9JDC | TENANT_ID=1 | org.bonitasoft.engine.core.connector.exception.SConnectorException : "PROCESS_DEFINITION_ID=8555143238509678580 | PROCESS_NAME=Medicine Forecast | PROCESS_VERSION=3.0 | PROCESS_INSTANCE_ID=8 | ROOT_PROCESS_INSTANCE_ID=5 | FLOW_NODE_DEFINITION_ID=5663869317664484571 | FLOW_NODE_INSTANCE_ID=56 | FLOW_NODE_NAME=Call Forecast Subprocess | CONNECTOR_IMPLEMENTATION_CLASS_NAME=preparePending | CONNECTOR_INSTANCE_ID=4 | org.bonitasoft.engine.connector.exception.SConnectorException: java.util.concurrent.ExecutionException: org.bonitasoft.engine.connector.exception.SConnectorException: org.bonitasoft.engine.connector.ConnectorException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server."
+org.bonitasoft.engine.core.connector.exception.SConnectorException: PROCESS_DEFINITION_ID=8555143238509678580 | PROCESS_NAME=Medicine Forecast | PROCESS_VERSION=3.0 | PROCESS_INSTANCE_ID=8 | ROOT_PROCESS_INSTANCE_ID=5 | FLOW_NODE_DEFINITION_ID=5663869317664484571 | FLOW_NODE_INSTANCE_ID=56 | FLOW_NODE_NAME=Call Forecast Subprocess | CONNECTOR_IMPLEMENTATION_CLASS_NAME=preparePending | CONNECTOR_INSTANCE_ID=4 | org.bonitasoft.engine.connector.exception.SConnectorException: java.util.concurrent.ExecutionException: org.bonitasoft.engine.connector.exception.SConnectorException: org.bonitasoft.engine.connector.ConnectorException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.bonitasoft.engine.core.connector.impl.ConnectorServiceImpl.executeConnectorInClassloader(ConnectorServiceImpl.java:285)
+	at org.bonitasoft.engine.core.connector.impl.ConnectorServiceImpl.executeConnector(ConnectorServiceImpl.java:158)
+	at org.bonitasoft.engine.connector.ConnectorServiceDecorator.executeConnector(ConnectorServiceDecorator.java:114)
+	at org.bonitasoft.engine.execution.work.ExecuteConnectorWork.work(ExecuteConnectorWork.java:138)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:42)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:58)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$0(BonitaThreadPoolExecutor.java:90)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.bonitasoft.engine.connector.exception.SConnectorException: java.util.concurrent.ExecutionException: org.bonitasoft.engine.connector.exception.SConnectorException: org.bonitasoft.engine.connector.ConnectorException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl.execute(ConnectorExecutorImpl.java:125)
+	at org.bonitasoft.engine.core.connector.impl.ConnectorServiceImpl.executeConnectorInClassloader(ConnectorServiceImpl.java:279)
+	... 12 more
+Caused by: java.util.concurrent.ExecutionException: org.bonitasoft.engine.connector.exception.SConnectorException: org.bonitasoft.engine.connector.ConnectorException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl.getValue(ConnectorExecutorImpl.java:149)
+	at org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl.execute(ConnectorExecutorImpl.java:122)
+	... 13 more
+Caused by: org.bonitasoft.engine.connector.exception.SConnectorException: org.bonitasoft.engine.connector.ConnectorException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.bonitasoft.engine.core.connector.impl.SConnectorAdapter.connect(SConnectorAdapter.java:84)
+	at org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl$ExecuteConnectorCallable.call(ConnectorExecutorImpl.java:205)
+	at org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl$ExecuteConnectorCallable.call(ConnectorExecutorImpl.java:176)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	... 3 more
+Caused by: org.bonitasoft.engine.connector.ConnectorException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.bonitasoft.connectors.database.jdbc.JdbcConnector.connect(JdbcConnector.java:145)
+	at org.bonitasoft.engine.core.connector.impl.SConnectorAdapter.connect(SConnectorAdapter.java:82)
+	... 6 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1117)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:355)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2461)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2498)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2283)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:822)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:404)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:317)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.bonitasoft.connectors.database.Database.<init>(Database.java:47)
+	at org.bonitasoft.connectors.database.jdbc.JdbcConnector.connect(JdbcConnector.java:143)
+	... 7 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:244)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:259)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:305)
+	... 23 more
+
+2018-01-29 10:21:05.603 +0100 SEVERE: org.bonitasoft.engine.execution.work.InSessionBonitaWork THREAD_ID=122 | HOSTNAME=DESKTOP-TUE9JDC | TENANT_ID=1 | org.bonitasoft.engine.core.connector.exception.SConnectorException : "PROCESS_DEFINITION_ID=8555143238509678580 | PROCESS_NAME=Medicine Forecast | PROCESS_VERSION=3.0 | PROCESS_INSTANCE_ID=6 | ROOT_PROCESS_INSTANCE_ID=5 | FLOW_NODE_DEFINITION_ID=5663869317664484571 | FLOW_NODE_INSTANCE_ID=39 | FLOW_NODE_NAME=Call Forecast Subprocess | CONNECTOR_IMPLEMENTATION_CLASS_NAME=preparePending | CONNECTOR_INSTANCE_ID=3 | org.bonitasoft.engine.connector.exception.SConnectorException: java.util.concurrent.ExecutionException: org.bonitasoft.engine.connector.exception.SConnectorException: org.bonitasoft.engine.connector.ConnectorException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server."
+org.bonitasoft.engine.core.connector.exception.SConnectorException: PROCESS_DEFINITION_ID=8555143238509678580 | PROCESS_NAME=Medicine Forecast | PROCESS_VERSION=3.0 | PROCESS_INSTANCE_ID=6 | ROOT_PROCESS_INSTANCE_ID=5 | FLOW_NODE_DEFINITION_ID=5663869317664484571 | FLOW_NODE_INSTANCE_ID=39 | FLOW_NODE_NAME=Call Forecast Subprocess | CONNECTOR_IMPLEMENTATION_CLASS_NAME=preparePending | CONNECTOR_INSTANCE_ID=3 | org.bonitasoft.engine.connector.exception.SConnectorException: java.util.concurrent.ExecutionException: org.bonitasoft.engine.connector.exception.SConnectorException: org.bonitasoft.engine.connector.ConnectorException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.bonitasoft.engine.core.connector.impl.ConnectorServiceImpl.executeConnectorInClassloader(ConnectorServiceImpl.java:285)
+	at org.bonitasoft.engine.core.connector.impl.ConnectorServiceImpl.executeConnector(ConnectorServiceImpl.java:158)
+	at org.bonitasoft.engine.connector.ConnectorServiceDecorator.executeConnector(ConnectorServiceDecorator.java:114)
+	at org.bonitasoft.engine.execution.work.ExecuteConnectorWork.work(ExecuteConnectorWork.java:138)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:42)
+	at org.bonitasoft.engine.execution.work.failurewrapping.TxInHandleFailureWrappingWork.work(TxInHandleFailureWrappingWork.java:42)
+	at org.bonitasoft.engine.execution.work.InSessionBonitaWork.work(InSessionBonitaWork.java:58)
+	at org.bonitasoft.engine.work.BonitaThreadPoolExecutor.lambda$submit$0(BonitaThreadPoolExecutor.java:90)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.bonitasoft.engine.connector.exception.SConnectorException: java.util.concurrent.ExecutionException: org.bonitasoft.engine.connector.exception.SConnectorException: org.bonitasoft.engine.connector.ConnectorException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl.execute(ConnectorExecutorImpl.java:125)
+	at org.bonitasoft.engine.core.connector.impl.ConnectorServiceImpl.executeConnectorInClassloader(ConnectorServiceImpl.java:279)
+	... 12 more
+Caused by: java.util.concurrent.ExecutionException: org.bonitasoft.engine.connector.exception.SConnectorException: org.bonitasoft.engine.connector.ConnectorException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl.getValue(ConnectorExecutorImpl.java:149)
+	at org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl.execute(ConnectorExecutorImpl.java:122)
+	... 13 more
+Caused by: org.bonitasoft.engine.connector.exception.SConnectorException: org.bonitasoft.engine.connector.ConnectorException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.bonitasoft.engine.core.connector.impl.SConnectorAdapter.connect(SConnectorAdapter.java:84)
+	at org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl$ExecuteConnectorCallable.call(ConnectorExecutorImpl.java:205)
+	at org.bonitasoft.engine.connector.impl.ConnectorExecutorImpl$ExecuteConnectorCallable.call(ConnectorExecutorImpl.java:176)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	... 3 more
+Caused by: org.bonitasoft.engine.connector.ConnectorException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.bonitasoft.connectors.database.jdbc.JdbcConnector.connect(JdbcConnector.java:145)
+	at org.bonitasoft.engine.core.connector.impl.SConnectorAdapter.connect(SConnectorAdapter.java:82)
+	... 6 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1117)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:355)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2461)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2498)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2283)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:822)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:404)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:317)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.bonitasoft.connectors.database.Database.<init>(Database.java:47)
+	at org.bonitasoft.connectors.database.jdbc.JdbcConnector.connect(JdbcConnector.java:143)
+	... 7 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:244)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:259)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:305)
+	... 23 more
+
+2018-01-29 10:24:22.300 +0100 INFO: org.bonitasoft.engine.EngineInitializer Stopping Bonita Engine...
+2018-01-29 10:24:22.301 +0100 INFO: org.bonitasoft.engine.EngineInitializer Stopping node...
+2018-01-29 10:24:22.734 +0100 INFO: org.bonitasoft.engine.EngineInitializer Bonita Engine stopped!

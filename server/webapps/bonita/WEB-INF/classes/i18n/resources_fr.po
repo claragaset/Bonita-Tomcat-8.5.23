@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: bonita-bpm\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: bonita-bpm\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /master/bonita-web/distrib/resources.pot\n"
+"Last-Translator: charlessouillard <rodrigue.legall@bonitasoft.com>\n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+"PO-Revision-Date: 2017-11-15 05:09-0500\n"
+
+msgid "Add"
+msgstr "Ajouter"
+
+msgid "Attention"
+msgstr "Attention"
+
+msgid "Business data"
+msgstr "Données Métier"
+
+msgid "Case id:{{case.caseIdToDisplay}} - Process: {{case.processDefinitionId.displayName}}"
+msgstr "Id du cas :{{case.caseIdToDisplay}} - Processus : {{case.processDefinitionId.displayName}}"
+
+msgid "Case started by: {{case.started_by.firstname}} {{case.started_by.lastname}}"
+msgstr "Cas démarré par : {{case.started_by.firstname}} {{case.started_by.lastname}}"
+
+msgid "Documents"
+msgstr "Documents"
+
+msgid "Download"
+msgstr "Télécharger"
+
+msgid "Example:"
+msgstr "Exemple :"
+
+msgid "Execute"
+msgstr "Exécuter"
+
+msgid "Expecting a {} value."
+msgstr "Attend une valeur {}."
+
+msgid "Filename"
+msgstr "Nom de fichier"
+
+msgid "List of {{ dataType }}"
+msgstr "Liste de {{ dataType }}"
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "No business data used in this case."
+msgstr "Aucune donnée métier n'est utilisée dans ce cas."
+
+msgid "no description defined in contract for this input"
+msgstr "Cet input n'a pas de description dans le contrat"
+
+msgid "No Documents used in this case."
+msgstr "Aucun document n'est utilisé dans ce cas."
+
+msgid "No tasks executed yet."
+msgstr "Aucune tâche terminée."
+
+msgid "Not a valid number!"
+msgstr "Nombre invalide !"
+
+msgid "remove"
+msgstr "Enlever"
+
+msgid "Select a file"
+msgstr "Sélectionnez un fichier"
+
+msgid "Start"
+msgstr "Démarrer"
+
+msgid "Tasks executed by any participant will be displayed here ordered by date. Most recent on the top."
+msgstr "Les tâches terminées seront affichées ici, la plus récente en premier."
+
+msgid "this is a temporary form generated automatically for testing. Before you put your process into production, create and map the necessary forms."
+msgstr "il s'agit d'un formulaire temporaire généré automatiquement à des fins de test. Avant de passer votre processus en production, vous devrez créer les formulaires définitifs et les associer au processus et aux tâches humaines."
+
+msgid "Timeline"
+msgstr "Déroulement du cas"
+

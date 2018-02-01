@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<formMappingModel>
+    <form-mappings>
+        <form-mapping form="custompage_forecastingRequestForm" target="INTERNAL" type="TASK" taskname="Fill in the Request"/>
+    </form-mappings>
+</formMappingModel>
